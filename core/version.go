@@ -6,7 +6,7 @@ package core
 import "fmt"
 
 // KrakendHeaderName is the name of the custom KrakenD header
-const KrakendHeaderName = "X-KRAKEND"
+var KrakendHeaderName = "X-KRAKEND"
 
 // KrakendVersion is the version of the build
 var KrakendVersion = "undefined"
