@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Apache-2.0
 package mux
 
 import (
@@ -8,10 +9,10 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/core"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/luraproject/lura/config"
+	"github.com/luraproject/lura/core"
+	"github.com/luraproject/lura/proxy"
+	"github.com/luraproject/lura/router"
 )
 
 const requestParamsAsterisk string = "*"

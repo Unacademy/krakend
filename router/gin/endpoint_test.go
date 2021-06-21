@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Apache-2.0
 package gin
 
 import (
@@ -13,9 +14,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/luraproject/lura/config"
+	"github.com/luraproject/lura/proxy"
+	"github.com/luraproject/lura/router"
 )
 
 func TestEndpointHandler_ok(t *testing.T) {
